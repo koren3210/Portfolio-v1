@@ -7,3 +7,13 @@
 .main-font{font-family: 'Oswald', sans-serif;}
 .alt-font{font-family: 'Roboto', sans-serif;}
 .mons-font{font-family: 'Montserrat', sans-serif;}
+
+.app-scroll {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  scroll-snap-align: start;
+}
